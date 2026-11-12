@@ -22,7 +22,7 @@ if (!prefersReducedMotion && typeof ScrollReveal === "function") {
         opacity: 0,
     });
 
-    reveal.reveal("main section > h2, main section > p, #projects article", {
+    reveal.reveal("main section > h2, main section > p, #projects article, #contact address p", {
         interval: 150
     });
 } else if (!prefersReducedMotion) {

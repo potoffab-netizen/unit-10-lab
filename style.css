@@ -158,11 +158,10 @@ main section {
 }
 @media (min-width: 600px) {
     .project-grid {
-    gap: 40px;
         grid-template-columns: repeat(2, 1fr);
-        
-        gap: 1em;
-    }}
+        gap: 40px;
+    }
+}
 h2 {
     color: var(--accent-dark);
     border-bottom: 3px solid var(--accent-green);
